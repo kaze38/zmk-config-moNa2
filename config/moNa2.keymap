@@ -61,7 +61,7 @@
 
         layer_1 {
             bindings = <
-&kp ESCAPE            &trans        &trans        &trans     &trans                                &kp LC(PAGE_UP)  &kp HOME  &kp LC(PAGE_DOWN)  &trans  &kp PRINTSCREEN
+&kp ESCAPE            &trans        &trans        &kp F7     &kp F8                                &kp LC(PAGE_UP)  &kp HOME  &kp LC(PAGE_DOWN)  &trans  &kp PRINTSCREEN
 &kp LC(A)             &kp LC(S)     &kp F4        &kp F2     &trans                 &trans         &mkp LCLK        &kp UP    &mkp RCLK          &trans  &trans
 &mt LEFT_SHIFT LC(Z)  &kp LC(X)     &kp LC(C)     &kp LC(V)  &trans   &kp LA(F4)    &trans         &kp LEFT         &kp DOWN  &kp RIGHT          &trans  &trans
 &kp LCTRL             &kp LEFT_ALT  &kp LEFT_WIN  &trans     &kp TAB  &trans        &kp BACKSPACE  &kp ENTER                                             &kp LC(F4)
