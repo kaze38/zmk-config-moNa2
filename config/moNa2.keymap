@@ -43,6 +43,20 @@
             bindings = <&kp LEFT_ALT &kp H &kp V &kp R>;
             label = "EXCEL_PASTE_FORM";
         };
+
+        Press_password: Press_password {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp Y &kp U &kp H &kp E &kp I &kp AT &kp N1 &kp N2 &kp N3>;
+            label = "PRESS_PASSWORD";
+        };
+
+        Press_userID: Press_userID {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp H &kp U &kp H &kp E &kp I &kp DOT &kp LS(H) &kp I &kp S &kp A &kp M &kp A &kp T &kp S &kp U &kp AT &kp K &kp A &kp G &kp O &kp M &kp E &kp DOT &kp C &kp O &kp M>;
+            label = "PRESS_USERID";
+        };
     };
 
     behaviors {
