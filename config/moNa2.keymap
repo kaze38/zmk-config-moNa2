@@ -44,7 +44,7 @@
             label = "EXCEL_PASTE_FORM";
         };
 
-        Press_password: Press_password {
+        Press_pw: Press_password {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(S) &kp Y &kp U &kp H &kp E &kp I &kp AT &kp N1 &kp N2 &kp N3>;
@@ -118,10 +118,10 @@
 
         layer_3 {
             bindings = <
-&Press_password  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans           &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&Press_userID    &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+&Press_pw      &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans         &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&Press_userID  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
