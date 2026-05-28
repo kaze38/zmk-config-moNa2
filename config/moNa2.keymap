@@ -93,10 +93,10 @@
 
         layer_2 {
             bindings = <
-&kp AT_SIGN                 &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                  &kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK
-&kp EXCLAMATION             &kp QUESTION     &kp PERCENT      &kp KP_NUMBER_6  &kp ASTERISK               &kp COMMA      &kp MINUS        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL    &kp PERIOD     &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans
-&trans                      &trans           &trans           &trans           &trans        &trans       &kp BACKSPACE  &kp ENTER                                                           &kp EQUAL
+&kp AT_SIGN      &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                      &kp PLUS         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK
+&kp EXCLAMATION  &kp QUESTION       &kp PERCENT       &kp LESS_THAN         &kp GREATER_THAN                            &kp COMMA      &kp MINUS        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH
+&kp HASH         &kp AMPERSAND      &kp NUBS          &kp DOLLAR            &kp LEFT_BRACKET       &kp RIGHT_BRACKET    &kp PERIOD     &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans
+&trans           &trans             &trans            &trans                &trans                 &trans               &kp BACKSPACE  &kp ENTER                                                           &kp EQUAL
             >;
 
             sensor-bindings = <&scroll_up_down>;
