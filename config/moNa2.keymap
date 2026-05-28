@@ -22,6 +22,13 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        Excel_paste_value: Excel_paste_value {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp H &kp V &kp V>;
+            label = "EXCEL_PASTE_VALUE";
+        };
     };
 
     behaviors {
