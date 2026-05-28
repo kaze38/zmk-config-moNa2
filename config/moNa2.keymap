@@ -29,6 +29,20 @@
             bindings = <&kp LEFT_ALT &kp H &kp V &kp V>;
             label = "EXCEL_PASTE_VALUE";
         };
+
+        Excel_paste_fomula: Excel_pasete_fomula {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp H &kp V &kp F>;
+            label = "EXCEL_PASETE_FOMULA";
+        };
+
+        Excel_paste_form: Excel_paste_form {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp H &kp V &kp R>;
+            label = "EXCEL_PASTE_FORM";
+        };
     };
 
     behaviors {
